@@ -1,0 +1,24 @@
+{
+    "name": "albert221/laravel-filepond",
+    "description": "FilePond upload handler with more features.",
+    "type": "library",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Albert221",
+            "email": "albert@wolszon.me"
+        }
+    ],
+    "require": {
+        "php": "^7.4",
+        "laravel/framework": "^7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Albert221\\Filepond\\": "src/"
+        }
+    }
+}
