@@ -39,8 +39,8 @@ class FilepondServiceProvider extends ServiceProvider
             'namespace' => '\Albert221\Filepond',
             'middleware' => config('filepond.middleware', []),
         ], function () {
-            Route::post('/', 'FilepondController@process')->middleware();
-            Route::delete('/', 'FilepondController@revert');
+            Route::post('/', 'FilepondController@process');
+            Route::delete('/', 'FilepondController@revoke');
         });
     }
 }
